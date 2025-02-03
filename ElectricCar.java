@@ -8,11 +8,11 @@ class ElectricCar extends Car {
 
     @Override//This is used to implement the method found in the abstract method
     void fuelType() {
-        System.out.println(brand + "runs on electricity");
+        System.out.println(brand + " runs on electricity ");
     }
     @Override//This is used to implement the method found in the Interface
     public void startEngine(){
-        System.out.println(brand+"starts silently");
+        System.out.println(brand+ " starts silently ");
 
 
     }
