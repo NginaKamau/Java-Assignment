@@ -1,0 +1,4 @@
+This assignment is going to highlight some of the concepts in Java such as use of abstract and concete class and interface
+For this assignment,my interface is called Vehicle, and the purpose of the interface is to define a common behavior among all the vehicles created which in this case implemenation of the method startEngine is what will be inherited
+I created an abstract class called Car whose work is be a parent class to all the cars that will be created and has a property called brand that will be inherited by all the cars. It also has an abstract method called fuelType which is inhertied by the subclasses where the type of fuel needs to be specified.
+The concrete class,ElectricCar,inherits from the classCar and implements the interface Vehicle.It provides specific implementation for the methods startEngine() and fuelType()
